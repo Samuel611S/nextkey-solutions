@@ -43,8 +43,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Smarter Placement. Less Vacancy.</h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Your trusted housing partner for filling units fast—with verified renters and expert coordination.
+            Your trusted NYC housing partner for filling units fast—with verified renters and expert voucher support.
           </p>
+          <div className="text-purple-800 font-semibold mb-6 text-lg">Call Our Hotline: 1-855-698-5397</div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button asChild size="lg" className="bg-purple-700 hover:bg-purple-800">
               <Link href="/landlords">List Your Unit</Link>
@@ -78,7 +79,7 @@ export default function HomePage() {
             </Badge>
             <Badge variant="secondary" className="bg-purple-100 text-purple-800 px-4 py-2">
               <FileText className="w-4 h-4 mr-2" />
-              Real Support Team
+              NYC-Based Support Team
             </Badge>
           </div>
         </div>
@@ -91,7 +92,7 @@ export default function HomePage() {
             <Card>
               <CardContent className="p-6">
                 <div className="text-3xl font-bold text-purple-700 mb-2">24-48hrs</div>
-                <p className="text-gray-600">Average Response Time</p>
+                <p className="text-gray-600">Avg Placement Response</p>
               </CardContent>
             </Card>
             <Card>
@@ -103,7 +104,7 @@ export default function HomePage() {
             <Card>
               <CardContent className="p-6">
                 <div className="text-3xl font-bold text-purple-700 mb-2">NYC+</div>
-                <p className="text-gray-600">Coverage Area</p>
+                <p className="text-gray-600">Voucher Coverage Area</p>
               </CardContent>
             </Card>
           </div>
@@ -113,9 +114,9 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-16 bg-purple-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Fill Your Vacancy?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Fill Your NYC Unit?</h2>
           <p className="text-xl mb-8 opacity-90">
-            Join property owners who trust NextKey for faster, compliant placements.
+            Partner with a placement service that understands vouchers, compliance, and urgency.
           </p>
           <Button asChild size="lg" variant="secondary" className="bg-white text-purple-700 hover:bg-gray-100">
             <Link href="/landlords">Get Started Today</Link>
@@ -135,7 +136,7 @@ export default function HomePage() {
                   <p className="text-sm text-purple-300">Global Solutions™</p>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm">Professional tenant placement and housing access services.</p>
+              <p className="text-gray-400 text-sm">NYC tenant placement and housing access services.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Services</h4>
@@ -180,6 +181,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-sm text-gray-400 mb-2">support@nextkeyglobalsolutions.com</p>
+              <p className="text-sm text-gray-400">Hotline: 1-855-698-5397</p>
               <p className="text-sm text-gray-400">@nextkeyglobal</p>
             </div>
           </div>
@@ -191,7 +193,9 @@ export default function HomePage() {
             <p className="mb-1">
               We are a tenant placement and coordination platform. Leasing decisions are made solely by landlords.
             </p>
-            <p>We do not discriminate based on source of income, race, gender, age, disability, or family status.</p>
+            <p>
+              We do not discriminate based on source of income, race, gender, age, disability, or family status.
+            </p>
           </div>
         </div>
       </footer>
