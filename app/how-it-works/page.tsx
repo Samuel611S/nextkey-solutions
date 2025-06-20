@@ -22,19 +22,19 @@ export default function HowItWorksPage() {
   const faqs = [
     {
       q: "What does NextKey Global Solutions do?",
-      a: "We’re a professional tenant placement service helping landlords fill vacancies quickly and legally—especially for voucher holders and underserved renters.",
+      a: "We’re a housing placement and tenant-matching company helping landlords find pre-qualified renters—especially those with housing vouchers.",
     },
     {
-      q: "Is this a real estate company?",
-      a: "We operate separately from licensed brokerage services. We match units and renters as a housing access support platform.",
+      q: "Do you collect broker fees?",
+      a: "No. We are not a licensed brokerage and do not collect broker fees through this company. All real estate transactions are handled by licensed agents.",
     },
     {
-      q: "Can landlords list with you?",
-      a: "Yes—property managers and landlords can partner with us to get reliable, pre-qualified renters.",
+      q: "Are you a real estate agency?",
+      a: "No. We are a placement and intake service. Licensed agents handle transactions, showings, and fees.",
     },
     {
-      q: "Is there a fee?",
-      a: "Fees vary depending on service type. Please contact us to discuss placement needs.",
+      q: "Who do you work with?",
+      a: "Landlords, property managers, developers, voucher holders, and real estate professionals.",
     },
   ]
 
@@ -248,7 +248,7 @@ export default function HowItWorksPage() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-purple-700"
+              className="border-white text-purple-700 hover:bg-white hover:text-purple-700"
             >
               <Link href="/contact">Schedule a Call</Link>
             </Button>

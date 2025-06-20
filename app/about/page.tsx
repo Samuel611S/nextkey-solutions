@@ -143,7 +143,7 @@ export default function AboutPage() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-purple-700"
+              className="border-white text-purple-700 hover:bg-white hover:text-purple-700"
             >
               <Link href="/contact">Schedule a Call</Link>
             </Button>
