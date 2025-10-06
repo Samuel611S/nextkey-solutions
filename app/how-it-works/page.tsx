@@ -15,6 +15,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import Header from "@/components/Header"
 
 export default function HowItWorksPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
@@ -40,26 +41,7 @@ export default function HowItWorksPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b border-gray-200">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-3">
-            <Image src="/logo.png" alt="NextKey Global Solutions" width={50} height={50} className="w-12 h-12" />
-            <div>
-              <h1 className="text-xl font-bold text-purple-700">NextKey</h1>
-              <p className="text-sm text-purple-600">Global Solutions™</p>
-            </div>
-          </Link>
-          <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-purple-700">Home</Link>
-            <Link href="/about" className="text-gray-700 hover:text-purple-700">About</Link>
-            <Link href="/landlords" className="text-gray-700 hover:text-purple-700">For Landlords</Link>
-            <Link href="/how-it-works" className="text-purple-700 font-medium">How It Works</Link>
-            <Link href="/services" className="text-gray-700 hover:text-purple-700">Services</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-purple-700">Contact</Link>
-          </nav>
-        </div>
-      </header>
+      <Header currentPage="/how-it-works" />
 
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-purple-50 to-white">
