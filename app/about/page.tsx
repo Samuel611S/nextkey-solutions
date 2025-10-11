@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">Built for the Way Cities Work.</h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              NextKey Global Solutions was created by housing professionals to help property owners overcome delays,
+              NextKey Global Solutions was created by housing professionals to help owners and tenants overcome delays,
               discrimination, and red tape. We offer a clean, fast process for matching landlords with verified
               tenants—especially those with vouchers. We help you lease faster, stay compliant, and avoid headaches.
             </p>
